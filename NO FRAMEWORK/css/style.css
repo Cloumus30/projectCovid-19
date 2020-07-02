@@ -133,10 +133,9 @@ nav ul{
 	background-repeat: no-repeat;
 	background-position: center;
 	color: white;
-}
-.tigaContent{
 	transition: 1.5s;
 }
+
 .tiga h2{
 	padding-top: 100px;
 }
@@ -161,10 +160,10 @@ nav ul{
 	background-image: linear-gradient(to right,rgb(18,18,18) 20%,rgb(124,116,118) );
 	background-size: cover;
 	color:white;
-}
-.empatContent{
 	transition: 1.5s;
 }
+
+
 .empat h2{
 	margin-top: 0;
 	padding-top: 100px;
