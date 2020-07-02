@@ -1,0 +1,229 @@
+body{
+	margin: 0;
+}
+
+p{
+	font-size: 40px;
+}
+h1,h2{
+	font-size: 50px;
+}
+/*#####################NAVIGASI#######################*/
+nav{
+	background-color: rgb(14,16,19);
+	margin-top: -20px;
+	position: fixed;
+	right: 0;
+	left: 0;
+}
+nav h1{
+	float: left;
+	padding-top: 10px;
+	margin-left: 20px;
+	font-size: 30px;
+
+}
+nav ul li{
+	float: left;
+	list-style: none;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: auto;
+	
+}
+nav a{
+	color:white;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+nav a:hover, nav li:hover{
+	background-color: grey;
+}
+nav ul{
+	margin-left: 77%;
+}
+
+/*######################Dropdown container##########################*/
+.dropcontent{
+	display: none;
+	width: 50px;
+	margin-left: 70px;
+	padding-top: 70px;
+	position: absolute;
+}
+.dropcontent li{
+	background-color:rgb(14,16,19);
+}
+.drop:hover .dropcontent{
+	display: block;
+	height: 100px;
+}
+
+
+/*###################################DIV 1###############################*/
+.bg{
+	background-image: url(../img/bg-covid-copy.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:white;
+}
+.satu {
+	text-align: center;
+	padding-bottom: 450px;
+	padding-top: 55px;
+	clear: both;
+	margin-top: 0px;
+	height: 500px;
+	clear: both;
+
+}
+.satu h2{
+	padding-top: 100px;
+}
+.satu p{
+	width: 50%;
+	margin-left: 25%;
+	padding-top: 50px;
+}
+
+/*##################DIV 2###################*/
+.dua {
+	padding-bottom: 200px;
+	text-align: center;
+	margin-right: 25px;
+	padding-top: 100px;
+	transition: 1s;
+}
+
+.dua img{
+	float: left;
+	padding-right: 10%;
+	margin-left: 5%;
+	height: 400px;
+}
+.dua h2{
+	margin-top: -50px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.dua p{
+	margin-bottom: 18px;
+	margin-top: 0;
+}
+.dua button{
+	background-color: black;
+	border-radius: 5px;
+}
+.dua a{
+	font-size: 30px;
+	color:white;
+	text-decoration: none;
+}
+
+/*#########################DIV 3###########################*/
+.tiga{
+	clear:both;
+	text-align: center;
+	padding-bottom: 200px;
+	background-image:url(../img/warning-sign.png),radial-gradient(rgb(207,41,41),rgb(125,7,7));
+	background-size:25%,cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+}
+.tigaContent{
+	transition: 1.5s;
+}
+.tiga h2{
+	padding-top: 100px;
+}
+.tiga p{
+	width: 60%;
+	margin-left: 20%;
+}
+.tiga button{
+	background-color: black;
+	border-radius: 5px;
+}
+.tiga a{
+	font-size: 30px;
+	color:white;
+	text-decoration: none;
+}
+
+/*#############################DIV 4##############################*/
+.empat {
+	text-align: center;
+	padding-bottom: 200px;
+	background-image: linear-gradient(to right,rgb(18,18,18) 20%,rgb(124,116,118) );
+	background-size: cover;
+	color:white;
+}
+.empatContent{
+	transition: 1.5s;
+}
+.empat h2{
+	margin-top: 0;
+	padding-top: 100px;
+}
+.empat p{
+	width: 75%;
+	margin-left: 10%;
+}
+.empat button{
+	background-color: black;
+	border-radius: 5px;
+}
+.empat a{
+	font-size: 30px;
+	color:white;
+	text-decoration: none;
+}
+
+
+/*#######################FOOTER####################################*/
+footer{
+	background-color: rgb(14,16,19);
+	color: white;
+	padding-top: 100px;
+}
+footer h3{
+	text-align: center;
+
+}
+footer a{
+	font-size: 25px;
+	text-decoration: none;
+	color: white;
+}
+.first{
+	font-size: 30px;
+	text-align: center;
+	list-style: none;
+	text-decoration: none;
+}
+.web{
+	float: left;
+	margin-left: 18%;
+
+}
+.source{
+	margin-left: 18%;
+	float: left;
+}
+.medsos{
+	margin-left:18%;
+	float: left;
+	margin-bottom: 200px;
+}
+.copyright{
+	clear:both;
+	text-align: center;
+	margin-bottom: 0;
+	
+	font-size: 20px;
+	border-top: 1px solid white;
+}
