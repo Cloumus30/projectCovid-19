@@ -3,8 +3,8 @@
 let prevScrollpos = window.pageYOffset;
 let currentWindowY = document.querySelector("nav").offsetTop;
 let dua=document.querySelector(".dua");
-let tiga = document.querySelectorAll(".tigaContent");
-let empat= document.querySelectorAll(".empatContent");
+let tiga = document.querySelector(".tiga");
+let empat= document.querySelector(".empat");
 dua.style.overflow="hidden";
 window.onscroll = function(){
 	let currentScrollPos = window.pageYOffset;
@@ -31,24 +31,16 @@ window.onscroll = function(){
 	}
 
 	if(currentScrollPos>=1324){
-		for (var i = 0; i <tiga.length; i++) {
-			tiga[i].style.opacity="1";
-		}
+		tiga.style.opacity="1";
 	}
 	else if(currentScrollPos<1324){
-		for (var i = 0; i < tiga.length; i++) {
-			tiga[i].style.opacity="0";
-		}
+		tiga.style.opacity="0";
 	}
 
 	if(currentScrollPos>=2198){
-		for (var i = 0; i <empat.length; i++) {
-			empat[i].style.opacity="1";
-		}
+		empat.style.opacity="1";
 	}
 	else if(currentScrollPos<2198){
-		for (var i = 0; i < empat.length; i++) {
-			empat[i].style.opacity="0";
-		}
+		empat.style.opacity="0";
 	}
 }
