@@ -26,29 +26,18 @@ window.onscroll = function(){
 	if(currentScrollPos>=574){
 		dua.style.opacity="1";
 	}
-	else if(currentScrollPos<574){
-		dua.style.opacity="0";
-	}
+	
 
 	if(currentScrollPos>=1324){
 		for (var i = 0; i <tiga.length; i++) {
 			tiga[i].style.opacity="1";
 		}
 	}
-	else if(currentScrollPos<1324){
-		for (var i = 0; i < tiga.length; i++) {
-			tiga[i].style.opacity="0";
-		}
-	}
-
+	
 	if(currentScrollPos>=1774){
 		for (var i = 0; i <empat.length; i++) {
 			empat[i].style.opacity="1";
 		}
 	}
-	else if(currentScrollPos<1774){
-		for (var i = 0; i < empat.length; i++) {
-			empat[i].style.opacity="0";
-		}
-	}
+	
 }
