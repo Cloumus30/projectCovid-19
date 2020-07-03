@@ -1,0 +1,8 @@
+.artikel{
+	background-image: url(../img/not-today-covid-19-copy.jpg),linear-gradient(to bottom, #F07242,#DB4826);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #222;
+	height: 800px;
+}

@@ -3,10 +3,10 @@ body{
 }
 
 p{
-	font-size: 40px;
+	font-size: 30px;
 }
 h1,h2{
-	font-size: 50px;
+	font-size: 40px;
 }
 /*#####################NAVIGASI#######################*/
 nav{
@@ -20,30 +20,30 @@ nav h1{
 	float: left;
 	padding-top: 10px;
 	margin-left: 20px;
-	font-size: 30px;
-
+	font-size: 20px;
+	color:white;
 }
 nav ul li{
 	float: left;
 	list-style: none;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
 	height: auto;
 	
 }
 nav a{
 	color:white;
-	font-size: 20px;
+	font-size: 15px;
 	text-decoration: none;
-
+	padding:15px;
 }
 nav a:hover, nav li:hover{
 	background-color: grey;
 }
 nav ul{
-	margin-left: 77%;
+	margin-left: 67%;
 }
 
 /*######################Dropdown container##########################*/
@@ -78,6 +78,8 @@ nav ul{
 	margin-top: 0px;
 	height: 500px;
 	clear: both;
+	opacity: 0;
+	transition: 1.5s;
 
 }
 .satu h2{
@@ -96,19 +98,20 @@ nav ul{
 	margin-right: 25px;
 	padding-top: 100px;
 	transition: 1.5s;
-	opacity:0;
+	opacity: 0;
 }
 
 .dua img{
 	float: left;
 	padding-right: 10%;
 	margin-left: 5%;
-	height: 400px;
+	height: 350px;
 }
 .dua h2{
-	margin-top: -50px;
+	margin-top: -30px;
 	margin-bottom: 0;
 	padding-bottom: 0;
+
 }
 .dua p{
 	margin-bottom: 18px;
@@ -134,13 +137,11 @@ nav ul{
 	background-repeat: no-repeat;
 	background-position: center;
 	color: white;
-	
 }
 .tigaContent{
-	opacity:0;
+	opacity: 0;
 	transition: 1.5s;
 }
-
 .tiga h2{
 	padding-top: 100px;
 }
@@ -166,18 +167,17 @@ nav ul{
 	background-size: cover;
 	color:white;
 }
-.tigaContent{
-	opacity:0;
+.empatContent{
+	opacity: 0;
 	transition: 1.5s;
 }
-
 .empat h2{
 	margin-top: 0;
 	padding-top: 100px;
 }
 .empat p{
 	width: 75%;
-	margin-left: 10%;
+	margin-left: 13%;
 }
 .empat button{
 	background-color: black;
@@ -194,26 +194,26 @@ nav ul{
 footer{
 	background-color: rgb(14,16,19);
 	color: white;
-	padding-top: 100px;
+	padding-top: 50px;
 }
 footer h3{
 	text-align: center;
 
 }
 footer a{
-	font-size: 25px;
+	font-size: 20px;
 	text-decoration: none;
 	color: white;
 }
 .first{
-	font-size: 30px;
+	font-size: 25px;
 	text-align: center;
 	list-style: none;
 	text-decoration: none;
 }
 .web{
 	float: left;
-	margin-left: 18%;
+	margin-left: 13%;
 
 }
 .source{
@@ -223,13 +223,29 @@ footer a{
 .medsos{
 	margin-left:18%;
 	float: left;
-	margin-bottom: 200px;
+	margin-bottom: 50px;
 }
 .copyright{
 	clear:both;
 	text-align: center;
 	margin-bottom: 0;
 	
-	font-size: 20px;
+	font-size: 15px;
 	border-top: 1px solid white;
+}
+
+/*#####################class Artikel##################*/
+.artikel h1, .artikel p{
+	text-align: center;
+	
+	padding-top: 150px;
+	clear: both;
+	margin-top: 0px;
+	
+	clear: both;
+	width: 75%;
+	margin-left: 10%;
+}
+.artikel p{
+	padding-top: 50px;
 }

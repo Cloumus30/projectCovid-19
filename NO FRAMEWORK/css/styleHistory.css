@@ -1,0 +1,11 @@
+.artikel {
+	background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.8)), url(../img/bg-history-copy.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	color:white;
+	height: auto;
+	padding-bottom: 60px;
+	margin-bottom: 0;
+	margin-top: 0;
+	width: 100%;
+}
