@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Covid-19 History</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/styleHistory.css">
+</head>
+<body>
+	<nav style="transition: 0.5s;">
+			<h1 class="brand">CIEL</h1>
+			<ul >
+				<li><a target="" href="index.html">Home</a></li>
+				<div  class="drop">
+					<li><a  href="#">Post</a></li>
+					<div  class="dropcontent">
+						<li><a href="#">Link1</a></li>
+						<li><a  href="#">Link2</a></li>
+						<li><a  href="#">Link3</a></li>
+					</div>
+				</div>
+					<li><a  href="#">COVID-19 History</a></li>
+				<li><a target="" href="about.html">About</a></li>
+			</ul>
+	</nav>
+
+	<div class="artikel">
+		<h1>Sejarah Covid-19</h1>
+		<p style="text-align: center;">Sejarah keberadaan virus sars cov-2 ini masih menjadi pertanyaan besar, banyak hal yang diperdebatkan para ahli tentang awal mula adanya virus ini. Dugaan awal munculnya virus ini berasal dari kelelawar liar yang dikonsumsi oleh manusi yang dijual secara bebas di pasar hewan di wuhan Cina. <br><br> versi lain mengatakan bahwa virus ini berasal dari percobaan Institut Virologi Wuhan (WIV) yang bocor dan menginfeksi manusia. Pada saat awal ditemukan diteliti diketahui bahwa virus ini tidak hanya satu tetapi memiliki beberapa tipe yaitu tipe A, B dan C yang berkembang dari virus B adalah hasil penelitian Peter Forster, seorang ahli genetika di Cambridge. <br><br> Penelitian Peter Foster tersebut merujuk pada hasil yang tidak dapat mengidentifikasi asal dari covid-19. Sehingga asal muasal virus ini masih menjadi pertanyaan sampai sekarang ini.</p>
+	</div>
+
+
+	<footer>
+		
+		<ul class="web">
+			<li class="first">Info website: </li> <br>
+			<li><a target="_blank" href="https://covid19.go.id/">covid19.go.id</a></li>
+			<li><a target="_blank" href="https://kawalcovid19.id/">kawalcovid19.id</a></li>
+			<li><a target="_blank" href="https://covid19.who.int/">covid19.who.int</a></li>
+		</ul>
+		<ul class="source">
+			<li class="first">Sumber: </li><br>
+			<li><a target="_blank" href="https://www.bbc.com/">BBC</a></li>
+			<li><a target="_blank" href="https://covid19.who.int/">covid19.who.int</a></li>
+			
+		</ul>
+		<ul class="medsos">
+			<li class="first">On Media: </li><br>
+			<li><a target="_blank" href="">Facebook</a></li>
+			<li><a target="_blank" href="">Instagram</a></li>
+		</ul>
+
+		<p class="copyright">CopyRigth CIEL@2020</p>
+	</footer>
+	
+
+
+	<script>
+		let prevScrollpos = window.pageYOffset;
+		let currentWindowY = document.querySelector("nav").offsetTop;
+		window.onscroll = function(){
+			let currentScrollPos = window.pageYOffset;
+			
+			if(currentScrollPos==currentWindowY){
+				document.querySelector("nav").style.backgroundColor ="transparent";	
+			}
+			else if (prevScrollpos>currentScrollPos){
+				document.querySelector("nav").style.top ="0";
+				document.querySelector("nav").style.backgroundColor ="black";
+			}
+			
+			else {
+				document.querySelector("nav").style.top = "-60px";
+
+			}
+			prevScrollpos = currentScrollPos;
+		}
+	</script>
+</body>
+</html>
