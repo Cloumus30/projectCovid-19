@@ -3,9 +3,11 @@
 let prevScrollpos = window.pageYOffset;
 let currentWindowY = document.querySelector("nav").offsetTop;
 let dua=document.querySelector(".dua");
+let satu = document.querySelector(".satu");
 let tiga = document.querySelectorAll(".tigaContent");
 let empat= document.querySelectorAll(".empatContent");
-dua.style.overflow="hidden";
+
+satu.style.opacity="1";
 window.onscroll = function(){
 	let currentScrollPos = window.pageYOffset;
 	
@@ -34,6 +36,7 @@ window.onscroll = function(){
 		}
 	}
 	
+
 	if(currentScrollPos>=1774){
 		for (var i = 0; i <empat.length; i++) {
 			empat[i].style.opacity="1";
